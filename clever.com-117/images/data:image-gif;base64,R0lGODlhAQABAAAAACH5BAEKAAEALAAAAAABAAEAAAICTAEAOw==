@@ -1,0 +1,1372 @@
+<!doctype html>
+<html class="no-js" lang='en' xml:lang='en'>
+  <head>
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+                        
+    <title>Single sign-on for education | Clever</title>
+    <meta name="description" content="Clever is a digital learning platform for K12 schools--one friendly place for single sign-on, messaging, analytics, and more.">
+    <link rel="shortcut icon" type="image/icon" href="/favicon.png">
+    <meta property="og:title" content="Single sign-on for education | Clever">
+    <meta property="og:image" content="https://assets.clever.com/website/content/Clever-meta-clever.png">
+    <meta property="og:description" content="Clever is a digital learning platform for K12 schools--one friendly place for single sign-on, messaging, analytics, and more.">
+    <meta property="twitter:title" content="Single sign-on for education | Clever">
+    <meta property="twitter:image" content="https://assets.clever.com/website/content/Clever-meta-clever.png">
+    <meta property="twitter:description" content="Clever is a digital learning platform for K12 schools--one friendly place for single sign-on, messaging, analytics, and more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OneTrust Cookies Consent Notice start for clever.com -->
+                <script type="text/javascript" src="https://cdn.cookielaw.org/consent/27805e4e-6b0b-4d97-8a6b-57f384392483/OtAutoBlock.js" ></script>
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="27805e4e-6b0b-4d97-8a6b-57f384392483" ></script>
+        <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for clever.com -->
+    <link href="/build/main.f184f61e.css" rel="stylesheet"></script>
+    <script src="/build/polyfill.f184f61e.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js"></script>
+    <!-- UA tag (analytics.js)-->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', "UA-47123108-1", 'auto');
+      ga('send', 'pageview', {
+        'page': location.pathname + location.search  + location.hash
+      });
+
+      var trackOutboundLink = function(url) {
+          ga('send', 'event', 'outbound', 'click', url, {'hitCallback': function () {
+              document.location = url;
+          }});
+      }
+
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKDHZLJBH6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RKDHZLJBH6');
+    </script>
+  <link href="/build/deprecated/signup-modal.f184f61e.css?v=1682015592" rel="stylesheet"></head>
+  <body>
+    
+            
+            						
+	            						
+	            			
+	            			
+	            						
+	            						
+	            						
+	                
+    
+				
+
+<nav class="main-header js-main-header  main-header--static " id="site-header">
+
+	<div class="content--max-width">
+
+				<a class="main-header--logo icon-clever" href="/"
+			aria-label="Clever Home Page"
+			title="Clever Home Page"
+		></a>
+
+				
+<div class="nav-desktop">
+
+		<div class="nav-desktop--links">
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="/schools"
+										class="nav-desktop--link-primary js-nav-dropdown-toggle
+										with-children"
+					 aria-label="Schools"
+           role="menuitem"
+					 aria-haspopup="true" >
+					<div class="nav-desktop--link-primary-wrapper">Schools</div>
+				</a>
+
+									<div class="nav-desktop--child-link-group js-nav-dropdown-container"
+					aria-hidden="true">
+																																																<a href="/schools"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Overview">
+									Overview
+								</a>
+																																			<a href="/products/rostering"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Rostering">
+									Rostering
+								</a>
+																																			<a href="/products/sso"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Single Sign-On">
+									Single Sign-On
+								</a>
+																																			<a href="/products/clever-analytics"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Analytics">
+									Analytics
+								</a>
+																																			<a href="/appstore?utm_source=2021_Q4_web&amp;utm_medium=clever_website&amp;utm_campaign=website_evergreen&amp;utm_content=districts_application_partnerships"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Clever App Store">
+									Clever App Store
+								</a>
+																																			<a href="/products/clever-idm"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Clever IDM">
+									Clever IDM
+								</a>
+																																			<a href="https://www.getclever.com/districtsignup/"
+									 target="_blank" 									class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="District Sign Up">
+									District Sign Up
+								</a>
+																		</div>
+				
+			</div>
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="/families"
+										class="nav-desktop--link-primary js-nav-dropdown-toggle
+										with-children"
+					 aria-label="Families"
+           role="menuitem"
+					 aria-haspopup="true" >
+					<div class="nav-desktop--link-primary-wrapper">Families</div>
+				</a>
+
+									<div class="nav-desktop--child-link-group js-nav-dropdown-container"
+					aria-hidden="true">
+																																																<a href="/families"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Overview">
+									Overview
+								</a>
+																																			<a href="products/clever-parents"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Clever Parents App">
+									Clever Parents App
+								</a>
+																		</div>
+				
+			</div>
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="/app-gallery"
+										class="nav-desktop--link-primary js-nav-dropdown-toggle
+										"
+					 aria-label="App Gallery"
+           role="menuitem"
+					>
+					<div class="nav-desktop--link-primary-wrapper">App Gallery</div>
+				</a>
+
+				
+			</div>
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="/pricing"
+										class="nav-desktop--link-primary js-nav-dropdown-toggle
+										"
+					 aria-label="Pricing"
+           role="menuitem"
+					>
+					<div class="nav-desktop--link-primary-wrapper">Pricing</div>
+				</a>
+
+				
+			</div>
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="/partners"
+										class="nav-desktop--link-primary js-nav-dropdown-toggle
+										with-children"
+					 aria-label="Partners"
+           role="menuitem"
+					 aria-haspopup="true" >
+					<div class="nav-desktop--link-primary-wrapper">Partners</div>
+				</a>
+
+									<div class="nav-desktop--child-link-group js-nav-dropdown-container"
+					aria-hidden="true">
+																																																<a href="/partners"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Overview">
+									Overview
+								</a>
+																																			<a href="/pricing"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Pricing">
+									Pricing
+								</a>
+																																			<a href="https://dev.clever.com/"
+									 target="_blank" 									class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Dev docs">
+									Dev docs
+								</a>
+																																			<a href="/app-bts"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Back to School">
+									Back to School
+								</a>
+																		</div>
+				
+			</div>
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="/resource-hub"
+										class="nav-desktop--link-primary js-nav-dropdown-toggle
+										with-children"
+					 aria-label="Resource Hubs"
+           role="menuitem"
+					 aria-haspopup="true" >
+					<div class="nav-desktop--link-primary-wrapper">Resource Hubs</div>
+				</a>
+
+									<div class="nav-desktop--child-link-group js-nav-dropdown-container"
+					aria-hidden="true">
+																																																<a href="/families/resource-hub"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Families">
+									Families
+								</a>
+																																			<a href="/resource-hub/teachers"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Teachers">
+									Teachers
+								</a>
+																																			<a href="/learning-at-home/tech-coaches"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Tech Coaches">
+									Tech Coaches
+								</a>
+																																			<a href="/resource-hub/district-admins"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="District Admins">
+									District Admins
+								</a>
+																																			<a href="/mcgraw-hill"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="McGraw Hill">
+									McGraw Hill
+								</a>
+																																			<a href="/google-classroom"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Google Classroom">
+									Google Classroom
+								</a>
+																		</div>
+				
+			</div>
+								<div class="nav-desktop--link-group js-nav-dropdown"
+				data-css-motion="true"
+				role="menu">
+				<a href="https://support.clever.com/"
+					 target="_blank" 					class="nav-desktop--link-primary js-nav-dropdown-toggle
+										with-children"
+					 aria-label="Help"
+           role="menuitem"
+					 aria-haspopup="true" >
+					<div class="nav-desktop--link-primary-wrapper">Help</div>
+				</a>
+
+									<div class="nav-desktop--child-link-group js-nav-dropdown-container"
+					aria-hidden="true">
+																																																<a href="https://support.clever.com/"
+									 target="_blank" 									class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Help center">
+									Help center
+								</a>
+																																			<a href="/academy"
+																		class="nav-desktop--child-secondary js-nav-dropdown-item"
+									role="menuitem" aria-label="Clever Academy">
+									Clever Academy
+								</a>
+																		</div>
+				
+			</div>
+			</div>
+
+</div>
+
+
+				<div class="nav-desktop--portal js-nav-dropdown"
+	role="menu"
+	data-click-to-close="true">
+	<div class="nav-desktop--portal-buttons">
+												<a class="nav-desktop--portal-main-button Button--secondary
+					Button Button--regular"
+					aria-label="Log in as a student"
+					onclick="trackOutboundLink('https://clever.com/login?student')"
+					href="https://clever.com/login?student">
+					Log in as a student
+				</a>
+																																													
+		<button class="Button--secondary nav-desktop--portal-toggle DropdownButton--toggle js-nav-dropdown-toggle
+			Button Button--regular"
+			aria-haspopup="true" aria-label="Login options menu toggle">
+			<span class="DropdownButton--Caret--container DropdownButton--dropdown-caret-button">
+				<span class="DropdownButton--Caret"></span>
+			</span>
+		</button>
+	</div>
+	<div class="nav-desktop--portal-menu js-nav-dropdown-container
+		DropdownButton--Menu DropdownButton--menu"
+		aria-hidden="true">
+
+																
+				<a class="nav-desktop--portal-option js-nav-dropdown-item
+					Button Button--regular DropdownButton--Option"
+					role="menuitem"
+					aria-label="Login as a Parent or Guardian"
+					onclick="trackOutboundLink('https://family.clever.com')"
+					href="https://family.clever.com">Parent or Guardian</a>
+
+											
+				<a class="nav-desktop--portal-option js-nav-dropdown-item
+					Button Button--regular DropdownButton--Option"
+					role="menuitem"
+					aria-label="Login as a Teacher or Staff"
+					onclick="trackOutboundLink('https://clever.com/login?teacher')"
+					href="https://clever.com/login?teacher">Teacher or Staff</a>
+
+											
+				<a class="nav-desktop--portal-option js-nav-dropdown-item
+					Button Button--regular DropdownButton--Option"
+					role="menuitem"
+					aria-label="Login as a District admin"
+					onclick="trackOutboundLink('https://schools.clever.com/')"
+					href="https://schools.clever.com/">District admin</a>
+
+											
+				<a class="nav-desktop--portal-option js-nav-dropdown-item
+					Button Button--regular DropdownButton--Option"
+					role="menuitem"
+					aria-label="Login as a Application partner"
+					onclick="trackOutboundLink('https://apps.clever.com/')"
+					href="https://apps.clever.com/">Application partner</a>
+
+													
+	</div>
+</div>
+
+
+				<div class="main-header--mobile-menu-gradients"></div>
+
+<div class="nav-mobile">
+
+		<div class="nav-desktop--portal"
+		role="menu">
+		<div class="nav-desktop--portal-buttons">
+			<button class="nav-desktop--portal-main-button
+				js-nav-login-toggle
+				Button Button--regular Button--secondary"
+				aria-expanded="false" aria-controls="mobile-login-menu" aria-haspopup="true"
+				aria-label="Open login options menu"
+				href='#'>
+				Log in
+			</button>
+		</div>
+	</div>
+
+		<div class="nav-mobile--login-menu" id="mobile-login-menu">
+
+        <div class="nav-mobile--header-background"></div>
+    
+		<div class="content--narrow-width">
+
+			<div class="nav-mobile--login-wrapper">
+				<div class="nav-mobile--login-intro">
+					Log in as a...
+				</div>
+
+				<div class="nav-mobile--login-tiles"
+					role="menu">
+					
+																			<a class="nav-mobile--login-tile" href="https://clever.com/login?student"
+								role="menuitem" aria-label="Log in as a Student">
+
+								<div class="nav-mobile--login-tile-content"
+									aria-hidden="true">
+									<img class="nav-mobile--login-tile-image"
+										src="https://assets.clever.com/website/content/UserCard_Kids.png"
+										alt="Student">
+									Student
+								</div>
+
+							</a>
+												
+																			<a class="nav-mobile--login-tile" href="https://family.clever.com"
+								role="menuitem" aria-label="Log in as a Parent or Guardian">
+
+								<div class="nav-mobile--login-tile-content"
+									aria-hidden="true">
+									<img class="nav-mobile--login-tile-image"
+										src="https://assets.clever.com/website/content/UserCard_Parents.png"
+										alt="Parent or Guardian">
+									Parent or Guardian
+								</div>
+
+							</a>
+												
+																			<a class="nav-mobile--login-tile" href="https://clever.com/login?teacher"
+								role="menuitem" aria-label="Log in as a Teacher or Staff">
+
+								<div class="nav-mobile--login-tile-content"
+									aria-hidden="true">
+									<img class="nav-mobile--login-tile-image"
+										src="https://assets.clever.com/website/content/UserCard_Teacher.png"
+										alt="Teacher or Staff">
+									Teacher or Staff
+								</div>
+
+							</a>
+												
+																			<a class="nav-mobile--login-tile" href="https://schools.clever.com/"
+								role="menuitem" aria-label="Log in as a District admin">
+
+								<div class="nav-mobile--login-tile-content"
+									aria-hidden="true">
+									<img class="nav-mobile--login-tile-image"
+										src="https://assets.clever.com/website/content/UserCard_DA.png"
+										alt="District admin">
+									District admin
+								</div>
+
+							</a>
+												
+																			<a class="nav-mobile--login-tile" href="https://apps.clever.com/"
+								role="menuitem" aria-label="Log in as a Application partner">
+
+								<div class="nav-mobile--login-tile-content"
+									aria-hidden="true">
+									<img class="nav-mobile--login-tile-image"
+										src="https://assets.clever.com/website/content/UserCard_AppPartner.png"
+										alt="Application partner">
+									Application partner
+								</div>
+
+							</a>
+												
+																					</div>
+			</div>
+
+																																																		<a href="#signup" class="nav-mobile--login-signup">
+						Sign up with Clever
+					</a>
+							
+		</div>
+
+	</div>
+
+		<button class="nav-mobile--menu-toggle js-nav-mobile-toggle"
+		 aria-expanded="false" aria-controls="mobile-global-menu" aria-haspopup="true"
+		 aria-label="Open main menu">
+		<div class="hamburger">
+			 <div class="bar"></div>  <div class="bar"></div>  <div class="bar"></div> 		</div>
+	</button>
+
+		<div class="nav-mobile--global-menu"
+		id="mobile-global-menu">
+    
+        <div class="nav-mobile--header-background"></div>
+
+				<div class="nav-mobile--links">
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="/schools"
+						aria-label="Schools"
+												class="nav-mobile--link-primary js-nav-dropdown-toggle
+												with-children"
+						aria-haspopup="true">
+						 <span class="icon-arrow-drop-down"></span>
+						Schools
+					</a>
+
+											<div class="nav-mobile--child-link-group js-nav-dropdown-container"
+						aria-hidden="true">
+														<a href="/schools"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Schools
+							</a>
+														<a href="/schools"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Overview
+							</a>
+														<a href="/products/rostering"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Rostering
+							</a>
+														<a href="/products/sso"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Single Sign-On
+							</a>
+														<a href="/products/clever-analytics"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Analytics
+							</a>
+														<a href="/appstore?utm_source=2021_Q4_web&amp;utm_medium=clever_website&amp;utm_campaign=website_evergreen&amp;utm_content=districts_application_partnerships"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Clever App Store
+							</a>
+														<a href="/products/clever-idm"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Clever IDM
+							</a>
+														<a href="https://www.getclever.com/districtsignup/"
+								 target="_blank" 								class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								District Sign Up
+							</a>
+													</div>
+					
+				</div>
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="/families"
+						aria-label="Families"
+												class="nav-mobile--link-primary js-nav-dropdown-toggle
+												with-children"
+						aria-haspopup="true">
+						 <span class="icon-arrow-drop-down"></span>
+						Families
+					</a>
+
+											<div class="nav-mobile--child-link-group js-nav-dropdown-container"
+						aria-hidden="true">
+														<a href="/families"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Families
+							</a>
+														<a href="/families"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Overview
+							</a>
+														<a href="products/clever-parents"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Clever Parents App
+							</a>
+													</div>
+					
+				</div>
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="/app-gallery"
+						aria-label="App Gallery"
+												class="nav-mobile--link-primary js-nav-dropdown-toggle
+												"
+						>
+						
+						App Gallery
+					</a>
+
+					
+				</div>
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="/pricing"
+						aria-label="Pricing"
+												class="nav-mobile--link-primary js-nav-dropdown-toggle
+												"
+						>
+						
+						Pricing
+					</a>
+
+					
+				</div>
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="/partners"
+						aria-label="Partners"
+												class="nav-mobile--link-primary js-nav-dropdown-toggle
+												with-children"
+						aria-haspopup="true">
+						 <span class="icon-arrow-drop-down"></span>
+						Partners
+					</a>
+
+											<div class="nav-mobile--child-link-group js-nav-dropdown-container"
+						aria-hidden="true">
+														<a href="/partners"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Partners
+							</a>
+														<a href="/partners"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Overview
+							</a>
+														<a href="/pricing"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Pricing
+							</a>
+														<a href="https://dev.clever.com/"
+								 target="_blank" 								class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Dev docs
+							</a>
+														<a href="/app-bts"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Back to School
+							</a>
+													</div>
+					
+				</div>
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="/resource-hub"
+						aria-label="Resource Hubs"
+												class="nav-mobile--link-primary js-nav-dropdown-toggle
+												with-children"
+						aria-haspopup="true">
+						 <span class="icon-arrow-drop-down"></span>
+						Resource Hubs
+					</a>
+
+											<div class="nav-mobile--child-link-group js-nav-dropdown-container"
+						aria-hidden="true">
+														<a href="/resource-hub"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Resource Hubs
+							</a>
+														<a href="/families/resource-hub"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Families
+							</a>
+														<a href="/resource-hub/teachers"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Teachers
+							</a>
+														<a href="/learning-at-home/tech-coaches"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Tech Coaches
+							</a>
+														<a href="/resource-hub/district-admins"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								District Admins
+							</a>
+														<a href="/mcgraw-hill"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								McGraw Hill
+							</a>
+														<a href="/google-classroom"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Google Classroom
+							</a>
+													</div>
+					
+				</div>
+											<div class="nav-mobile--link-group js-nav-dropdown"
+					data-click-toggle="true"
+					role="menu">
+					<a href="https://support.clever.com/"
+						aria-label="Help"
+						 target="_blank" 						class="nav-mobile--link-primary js-nav-dropdown-toggle
+												with-children"
+						aria-haspopup="true">
+						 <span class="icon-arrow-drop-down"></span>
+						Help
+					</a>
+
+											<div class="nav-mobile--child-link-group js-nav-dropdown-container"
+						aria-hidden="true">
+														<a href="https://support.clever.com/"
+								 target="_blank" 								class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Help
+							</a>
+														<a href="https://support.clever.com/"
+								 target="_blank" 								class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Help center
+							</a>
+														<a href="/academy"
+																class="nav-mobile--child-secondary js-nav-dropdown-item"
+								role="menuitem">
+								Clever Academy
+							</a>
+													</div>
+					
+				</div>
+					</div>
+	</div>
+
+</div>
+
+
+	</div>
+
+</nav>
+
+	
+        			
+
+<div id="announcement" class="section--extra-padding bg-blue"
+  tabindex="0"
+  style="visibility: hidden;
+  ">
+
+    <button class="announcement--close-button text-white" tabindex="0"></button>
+
+    <div class="content--max-width">
+
+    <div class="announcement--content">
+
+              <h5 class="announcement--heading text-white">
+          New! Cybersecure 2023 Report
+        </h5>
+      
+      <p class="announcement--copy text-white">
+        Download the report for fresh insights on digital security in K-12
+      </p>
+
+    </div>
+
+              <a class="announcement--link text-blue"
+        href="https://www.getclever.com/cybersecure-2023/" target="_blank"
+        aria-label="Download the report for fresh insights on digital security in K-12 Learn more">
+        Learn more
+      </a>
+        
+
+  </div>
+
+</div>
+	
+
+		<div id="main">
+									
+							
+						
+
+
+    
+
+
+<div class="section--extra-padding marquee-v2 
+  theme-blue 
+   image-layout-background    has-image   ">
+
+    
+	<div class="content--max-width">
+		
+		
+					<h1 class="marquee-v2--title text-white">
+				Unlock a world of digital learning
+			</h1>
+		
+		
+		
+	</div>
+
+        <div class="fill marquee-v2--bg-image" 
+      style="background-image: url('https://assets.clever.com/website/regular_website_content/Clever-BTS2022-Homepage-Student-02.jpeg');"
+      role="img" aria-label="A student smiling in a classroom">
+    </div>
+  
+    
+</div>
+
+
+										
+																																																		
+<div class="panel-cards section">
+	<div class="content--wide-width">
+
+				<div class="panel-cards--heading-content text--center ">
+							<h3 class="text-blue js-balance-text padding--bottom--m">Log in to Clever</h3>
+			
+      		</div>
+
+            <div class="panel-cards--cards padding--top--xl">
+
+                              
+        <div class="panel-cards--card padding--y--3xl padding--x--xl text-center
+          theme-blue"> 
+        
+                                <h4 class="panel-cards--card-heading">
+              Student
+            </h4>
+          
+                    
+                                <a class="panel-cards--card-link Button--plain" href="https://clever.com/login?student">
+              Log in
+            </a>
+                  </div>
+                              
+        <div class="panel-cards--card padding--y--3xl padding--x--xl text-center
+          theme-dark-blue"> 
+        
+                                <h4 class="panel-cards--card-heading">
+              Parent or guardian
+            </h4>
+          
+                                <p class="panel-cards--card-copy p-larger">
+               
+            </p>
+          
+                                <a class="panel-cards--card-link Button--plain" href="https://family.clever.com/">
+              Log in
+            </a>
+                  </div>
+                              
+        <div class="panel-cards--card padding--y--3xl padding--x--xl text-center
+          theme-dark-blue"> 
+        
+                                <h4 class="panel-cards--card-heading">
+              Teacher or staff
+            </h4>
+          
+                                <p class="panel-cards--card-copy p-larger">
+               
+            </p>
+          
+                                <a class="panel-cards--card-link Button--plain" href="https://clever.com/login?teacher">
+              Log in
+            </a>
+                  </div>
+                              
+        <div class="panel-cards--card padding--y--3xl padding--x--xl text-center
+          theme-dark-blue"> 
+        
+                                <h4 class="panel-cards--card-heading">
+              District admin
+            </h4>
+          
+                                <p class="panel-cards--card-copy p-larger">
+               
+            </p>
+          
+                                <a class="panel-cards--card-link Button--plain" href="https://schools.clever.com/">
+              Log in
+            </a>
+                  </div>
+      
+                    <div class="panel-cards--card" style="visibility: hidden; margin: 0;"></div>
+      
+    </div>
+    
+	</div>
+</div>
+
+										
+						
+																					
+																					
+													
+
+<div class="section cta-v2 theme-default ">
+
+	<div class="content--max-width text--center">
+
+		<div class="cta-v2--inner-content">
+
+            
+      
+      				<h2 class="text-blue scripted-font">Connect   every   student</h2>
+			
+			
+              <p class="cta-v2--copy text-black text-link-styles ">
+          We’re making digital learning work better than ever before. That starts with a platform that runs so smoothly, reliably, and securely so that school leaders don’t have to think about it. Clever is the one central place to manage identity, access, and security so schools are ready on day one.
+        </p>
+      
+							<a href="https://blog.clever.com/2023/02/new-in-2023/?utm_source=web&amp;utm_medium=homepage&amp;utm_id=newfromclever" class="Button 
+           Button--primary Button--regular Button--theme-dark-blue                   ">
+					See what&#039;s new in 2023
+					<span class="icon-arrow"></span>
+				</a>
+					</div>
+
+	</div>
+
+      <div class="cta-v2--filigree-container fill">
+          </div>
+  
+</div>
+
+														
+						
+																		
+										
+
+<div class="benefit section benefit--align-left theme-white js-video-player-container">
+	<div class="content--max-width">
+
+		<div class="benefit--columns">
+
+            <div class="benefit--image-column">
+                  <img class="b-lazy" 
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            alt="" 
+            data-src="https://assets.clever.com/website/regular_website_content/Clever-BTS2022-Website_4.png"/>
+              </div>
+
+            <div class="benefit--copy-column
+        ">
+
+        
+                          <h3 class="benefit--column-heading text-blue">
+            Control is in. Chaos is out.
+          </h3>
+        
+                          <div class="benefit--column-copy text-black text-link-styles">
+            <p>Banish the chaos that often comes with providing more edtech for your schools. Whether you’re using the Clever portal or simply our best-in-class rostering platform, Clever is faster and more flexible than ever before.</p>
+          </div>
+        
+                          <a href="clever.com/schools" class="benefit--column-link Button Button--link">
+            See how schools use Clever
+            <span class="icon-arrow"></span>
+          </a>
+        
+              </div>
+
+    </div>
+
+	</div>
+
+      <div class="benefit--filigree-container fill false">
+          </div>
+  
+    
+</div>
+
+														
+						
+																		
+										
+
+<div class="benefit section benefit--align-right theme-white js-video-player-container">
+	<div class="content--max-width">
+
+		<div class="benefit--columns">
+
+            <div class="benefit--image-column">
+                  <img class="b-lazy" 
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            alt="" 
+            data-src="https://assets.clever.com/website/regular_website_content/Clever-BTS2022-Website_3.png"/>
+              </div>
+
+            <div class="benefit--copy-column
+        ">
+
+        
+                          <h3 class="benefit--column-heading text-blue">
+            Built-in security.
+          </h3>
+        
+                          <div class="benefit--column-copy text-black text-link-styles">
+            <p>We have over 10 years of excellence with secure data management—and the pledges, certifications, and compliance programs in place to prove it. Check out our <a href="https://www.prnewswire.com/news-releases/clever-idm-wins-district-administration-top-ed-tech-product-award-301703183.html">award-winning product, Clever IDM</a> and ask us about MFA for students and staff coming soon.</p>
+          </div>
+        
+                          <a href="https://clever.com/products/rostering" class="benefit--column-link Button Button--link">
+            Learn how secure rostering works
+            <span class="icon-arrow"></span>
+          </a>
+        
+              </div>
+
+    </div>
+
+	</div>
+
+      <div class="benefit--filigree-container fill false">
+          </div>
+  
+    
+</div>
+
+														
+						
+																		
+										
+
+<div class="benefit section benefit--align-left theme-white js-video-player-container">
+	<div class="content--max-width">
+
+		<div class="benefit--columns">
+
+            <div class="benefit--image-column">
+                  <img class="b-lazy" 
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            alt="" 
+            data-src="https://assets.clever.com/website/regular_website_content/Clever-BTS2022-Website_5.png"/>
+              </div>
+
+            <div class="benefit--copy-column
+        ">
+
+        
+                          <h3 class="benefit--column-heading text-blue">
+            More teaching. Less confusion.
+          </h3>
+        
+                          <div class="benefit--column-copy text-black text-link-styles">
+            <p>We’re a platform designed for educators in classrooms. Features like shareable Teacher Pages, a customized district portal, and self-guided training modules ensure teachers can easily navigate digital tools and focus on what matters most: Learning.</p>
+          </div>
+        
+                          <a href="https://clever.com/products/digital-classroom" class="benefit--column-link Button Button--link">
+            See how educators use Clever
+            <span class="icon-arrow"></span>
+          </a>
+        
+              </div>
+
+    </div>
+
+	</div>
+
+      <div class="benefit--filigree-container fill false">
+          </div>
+  
+    
+</div>
+
+														
+						
+
+<div class="section marquee-spacer theme-white">
+
+</div>
+
+										
+						
+<div class="section--no-vertical-padding seperator">
+	<div class="content--max-width">
+			</div>
+</div>
+
+										
+						
+<div class="section--no-vertical-padding seperator">
+	<div class="content--max-width">
+			</div>
+</div>
+
+										
+						
+
+<div class="section--extra-padding quote text-left
+	 dark bg-blue ">
+
+	<div class="content--max-width">
+							<img class="quote--image b-lazy" 
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="https://assets.clever.com/website/regular_website_content/Doug_200721_174141.png" 
+				alt="Picture of Doug Laing">
+		
+		<div class="quote--content-left
+			">
+										<h2 class="quote--title text-blue">Clever really is this magical place where students can go and everything they need is just one click away.</h2>
+			
+										<p class="quote--subtitle p-larger text-black">- Doug Laing, Glendale Unified</p>
+					</div>
+
+	</div>
+
+</div>
+
+										
+																																									
+				
+
+<div class="three-column-content 
+  section text--center theme-default ">
+
+	<div class="content--max-width">
+
+				<div class="three-column-content--heading-content">
+      
+							<h2 class="text-blue js-balance-text">The most widely used single sign‑on platform for K–12 education</h2>
+					</div>
+
+            <div class="three-column-content--columns">
+
+              <div class="three-column-content--column">
+
+                    <div class="three-column-content--column-image-container">
+                          <div class="three-column-content--column-image fill b-lazy" 
+                data-src="https://assets.clever.com/website/regular_website_content/icon-trust-comes-first-v2_190827_162515.png"
+              ></div>
+                      </div>
+
+                                <h3 class="three-column-content--column-heading text-blue">
+              Trust comes first
+            </h3>
+          
+                                <p class="three-column-content--column-copy text-black js-balance-text">
+              We continually invest in people, practices, and infrastructure to safeguard student data. Read more in our <a href="/about/trust">Trust Center</a>.
+            </p>
+          
+        </div>
+              <div class="three-column-content--column">
+
+                    <div class="three-column-content--column-image-container">
+                          <div class="three-column-content--column-image fill b-lazy" 
+                data-src="https://assets.clever.com/website/regular_website_content/icon-in-schools-everywhere.png"
+              ></div>
+                      </div>
+
+                                <h3 class="three-column-content--column-heading text-blue">
+              In schools everywhere
+            </h3>
+          
+                                <p class="three-column-content--column-copy text-black js-balance-text">
+              95,000 of U.S. schools already learn with Clever. That's over 75% of U.S. students using Clever single sign-on to instantly access a world of digital learning.
+            </p>
+          
+        </div>
+              <div class="three-column-content--column">
+
+                    <div class="three-column-content--column-image-container">
+                          <div class="three-column-content--column-image fill b-lazy" 
+                data-src="https://assets.clever.com/website/regular_website_content/icon-free-to-schools.png"
+              ></div>
+                      </div>
+
+                                <h3 class="three-column-content--column-heading text-blue">
+              Free for districts
+            </h3>
+          
+                                <p class="three-column-content--column-copy text-black js-balance-text">
+              Clever’s <a href="/pricing">business model</a> means all districts can finally have interoperability at no charge, thanks to our network of 850+ partners.
+            </p>
+          
+        </div>
+      
+    </div>
+    
+	</div>
+
+</div>
+
+										
+						
+																					
+																					
+													
+
+<div class="section cta-v2 theme-default ">
+
+	<div class="content--max-width text--center">
+
+		<div class="cta-v2--inner-content">
+
+            
+      
+      
+							<h2 class="cta-v2--heading text-blue js-balance-text">Find out how your district can use Clever</h2>
+			
+      
+							<a href="https://www.getclever.com/districtsignup/" class="Button 
+           Button--primary Button--regular Button--theme-dark-blue                   ">
+					Get started
+					<span class="icon-arrow"></span>
+				</a>
+					</div>
+
+	</div>
+
+      <div class="cta-v2--filigree-container fill">
+          </div>
+  
+</div>
+
+								
+							<div id="js-signup-modal" class="user-picker-modal js-modal">
+  <div class="overlay js-modal-overlay"></div>
+  <div class="modal-box">
+    <button title="Close signup form" class="js-modal-close"></button>
+    <h2>Sign up as a...</h2>
+    <a href="/signup/full" onclick="trackOutboundLink('/signup/full')" class="option"><img src="https://assets.clever.com/website/content/UserCard_DA.png" alt="District admin" style="width: 240px"><div class="user-title">District Admin</div></a>
+    <a href="/app-signup" onclick="trackOutboundLink('/app-signup')" class="option"><img src="https://assets.clever.com/website/content/UserCard_AppPartner.png" alt="Application Partner" style="width: 240px"><div class="user-title">Application Partner</div></a>
+  </div>
+</div>
+<script type="text/javascript" src="/build/deprecated/signup-modal.f184f61e.js"></script>
+
+<footer id="main-footer" class="section--extra-padding bg-footer-gray">
+
+	<div class="content--max-width">
+
+		<div class="auxiliary-nav">
+						<div class="js-back-to-top">
+				<a class="Button Button--link">
+					<span class="icon-arrow"></span> Back to top
+				</a>
+			</div>
+		</div>
+
+				<nav class="social">
+			<ul>
+							<li>
+					<a href="https://www.linkedin.com/company/clever-inc-/" target="_blank" class="icon-linkedin"
+						aria-label="LinkedIn"
+						title="LinkedIn"
+					></a>
+				</li>
+							<li>
+					<a href="https://twitter.com/clever" target="_blank" class="icon-twitter"
+						aria-label="Twitter"
+						title="Twitter"
+					></a>
+				</li>
+							<li>
+					<a href="https://www.facebook.com/clever" target="_blank" class="icon-facebook"
+						aria-label="Facebook"
+						title="Facebook"
+					></a>
+				</li>
+						</ul>
+		</nav>
+
+
+				<nav class="site-wide">
+							<ul class="column-4 js-accordion">
+					<li class="nav-link-stacked--heading js-accordion-toggle"
+						role="heading" aria-level="4" >Products</li>
+					<li>
+						<ul class="js-accordion-content">
+															<li><a href="/products/rostering"
+																		class="nav-link-stacked">Rostering</a></li>
+															<li><a href="/products/sso"
+																		class="nav-link-stacked">Single Sign-on</a></li>
+															<li><a href="/products/badges"
+																		class="nav-link-stacked">Clever Badges</a></li>
+															<li><a href="/products/digital-classroom"
+																		class="nav-link-stacked">Digital Classroom</a></li>
+															<li><a href="/appstore"
+																		class="nav-link-stacked">Clever App Store</a></li>
+															<li><a href="/products/sso/library"
+																		class="nav-link-stacked">Clever Library</a></li>
+															<li><a href="/products/clever-analytics"
+																		class="nav-link-stacked">Clever Analytics</a></li>
+															<li><a href="/products/clever-idm"
+																		class="nav-link-stacked">Clever IDM</a></li>
+															<li><a href="/products/clever-parents"
+																		class="nav-link-stacked">Clever Parents</a></li>
+															<li><a href="/pricing"
+																		class="nav-link-stacked">Pricing</a></li>
+													</ul>
+					</li>
+				</ul>
+							<ul class="column-4 js-accordion">
+					<li class="nav-link-stacked--heading js-accordion-toggle"
+						role="heading" aria-level="4" >Company</li>
+					<li>
+						<ul class="js-accordion-content">
+															<li><a href="/about"
+																		class="nav-link-stacked">About us</a></li>
+															<li><a href="/about/careers"
+																		class="nav-link-stacked">Careers</a></li>
+															<li><a href="/about/diversity-and-inclusion"
+																		class="nav-link-stacked">DE&I</a></li>
+															<li><a href="/about/engineering"
+																		class="nav-link-stacked">Engineering</a></li>
+															<li><a href="https://blog.clever.com"
+									 target="_blank" 									class="nav-link-stacked">Blog</a></li>
+															<li><a href="/about/news"
+																		class="nav-link-stacked">News</a></li>
+															<li><a href="/about/events"
+																		class="nav-link-stacked">Events</a></li>
+															<li><a href="/about/contact"
+																		class="nav-link-stacked">Contact</a></li>
+															<li><a href="/kahoot"
+																		class="nav-link-stacked">Clever and Kahoot!</a></li>
+													</ul>
+					</li>
+				</ul>
+							<ul class="column-4 js-accordion">
+					<li class="nav-link-stacked--heading js-accordion-toggle"
+						role="heading" aria-level="4" >Trust</li>
+					<li>
+						<ul class="js-accordion-content">
+															<li><a href="/trust "
+																		class="nav-link-stacked">Trust</a></li>
+															<li><a href="/trust/privacy"
+																		class="nav-link-stacked">Privacy</a></li>
+															<li><a href="/trust/security"
+																		class="nav-link-stacked">Security</a></li>
+															<li><a href="/trust/compliance"
+																		class="nav-link-stacked">Compliance</a></li>
+													</ul>
+					</li>
+				</ul>
+							<ul class="column-4 js-accordion">
+					<li class="nav-link-stacked--heading js-accordion-toggle"
+						role="heading" aria-level="4" >Help</li>
+					<li>
+						<ul class="js-accordion-content">
+															<li><a href="https://support.clever.com/"
+									 target="_blank" 									class="nav-link-stacked">Help center</a></li>
+															<li><a href="/academy"
+																		class="nav-link-stacked">Clever Academy</a></li>
+															<li><a href="https://support.clever.com/hc/s/articles/Product-Releases"
+									 target="_blank" 									class="nav-link-stacked">Product Releases</a></li>
+													</ul>
+					</li>
+				</ul>
+					</nav>
+
+				<nav class="colophon">
+			<ul>
+				<li class="copyright">&copy; 2023 Clever Inc. or its affiliates</li>
+									<li><a href="/trust/terms" class="nav-link-stacked">Terms of Use</a></li>
+									<li><a href="/trust/privacy/policy" class="nav-link-stacked">Privacy Policy</a></li>
+									<li><a href="/trust/accessibility" class="nav-link-stacked">Accessibility statement</a></li>
+							</ul>
+		</nav>
+
+	</div>
+
+</footer>
+
+					</div>
+
+	<script src="/build/main.f184f61e.js"></script>
+	</body>
+
+</html>
